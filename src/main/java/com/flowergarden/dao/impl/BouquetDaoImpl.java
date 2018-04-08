@@ -18,7 +18,7 @@ import java.util.*;
 /**
  * @author Andrew Bandura
  */
-@Repository
+@Repository("bouquetDao")
 public class BouquetDaoImpl implements BouquetDao {
 
     private final static String SQL_ADD = "INSERT INTO bouquet(`name`, `assemble_price`) " +

@@ -21,7 +21,7 @@ import java.util.Optional;
 /**
  * @author Andrew Bandura
  */
-@Repository
+@Repository("flowerDao")
 public class FlowerDaoImpl implements FlowerDao {
 
     private final static String SQL_ADD = "INSERT INTO flower(`name`, `lenght`, `freshness`, `price`, `petals`, `spike`, `bouquet_id`) " +

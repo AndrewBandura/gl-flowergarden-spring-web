@@ -9,8 +9,8 @@ public class Run {
 
 	public static void main(String[] args) throws IOException {
 
-		File file = new File("com.flowergarden.db");
-		String url = "jdbc:sqlite:"+file.getCanonicalFile().toURI();
+		//File file = new File("com.flowergarden.db");
+		String url = "jdbc:sqlite:/Users/andrew/Documents/Java/Projects/gl-flowergarden-web/flowergarden.db";
 		System.out.println(url);
 		try(Connection conn = DriverManager.getConnection(url)) {
 			Statement st = conn.createStatement();

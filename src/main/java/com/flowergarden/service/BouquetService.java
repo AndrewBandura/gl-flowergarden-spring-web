@@ -7,4 +7,6 @@ import java.util.List;
 public interface BouquetService {
 
     List<Bouquet> getBouquets();
+
+    Bouquet readJson();
 }
