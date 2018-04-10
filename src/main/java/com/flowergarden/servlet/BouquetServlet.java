@@ -14,7 +14,6 @@ import java.io.IOException;
 import java.util.List;
 
 @WebServlet(urlPatterns = "/bouquets")
-//@Configurable
 public class BouquetServlet extends AbstractServlet {
 
     @Autowired
